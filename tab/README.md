@@ -12,6 +12,7 @@ This project is a simple implementation of tabs using Vanilla JavaScript. It all
 
 The project structure is as follows:
 
+```
 tab/
 ├── css/
 │ ├── index.css
@@ -19,6 +20,7 @@ tab/
 │ ├── index.js
 ├── index.html
 └── README.md
+```
 
 - `css/`: contains the stylesheet for the project.
 - `js/`: contains the JavaScript file for the project.
