@@ -1,34 +1,30 @@
-# Tab Project
+# Vanilla JS Tab Project
 
-This is a simple Tab Project built using HTML, CSS, and JavaScript.
+This project is a simple implementation of tabs using Vanilla JavaScript. It allows you to switch between different content sections without the need for page refresh.
 
-## Project Description
+## How to Use
 
-The Tab Project consists of a set of tabs that can be clicked to switch between different content sections. Each tab has a label and a corresponding content section.
+1. Download or clone the project repository to your local machine.
+2. Open the `index.html` file in your web browser.
+3. Click on the different tab buttons to switch between content sections.
 
-The project is built using React to handle the rendering of the tabs and content sections. The tabs and content sections are defined as an array of objects in the project state.
+## Project Structure
 
-## Installation
+The project structure is as follows:
 
-To install the project, simply download or clone the project files from the GitHub repository. Once downloaded, open the index.html file in your browser to view the project.
+tab/
+├── css/
+│ ├── index.css
+├── js/
+│ ├── index.js
+├── index.html
+└── README.md
 
-```bash
-git clone https://github.com/username/accordion-project.git
-```
+- `css/`: contains the stylesheet for the project.
+- `js/`: contains the JavaScript file for the project.
+- `index.html`: the main HTML file for the project.
+- `README.md`: this file.
 
-## Usage
+## Dependencies
 
-Usage
-To use the accordion project, simply click on the panel headers to expand or collapse the panels. You can also add additional panels or modify the content of the existing panels by editing the HTML code.
-
-## Contributing
-
-If you would like to contribute to the project, please fork the repository and submit a pull request with your changes. All contributions are welcome!
-
-## Credits
-
-The Tab Project was created by Mark Alexis Posadas and is licensed under the MIT License.
-
-## Demo
-
-Coming soon
+This project has no external dependencies. It uses only Vanilla JavaScript, HTML and CSS.
