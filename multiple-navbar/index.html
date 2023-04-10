@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla JavaScript Tab</title>
+    <title>Vanilla JavaScript Multiple tabs</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,15 +15,30 @@
   </head>
   <body>
     <nav>
-      <li class="active">Home</li>
-      <li>About</li>
-      <li>Contact</li>
+      <li class="active" data-target="#home">Home</li>
+      <li data-target="#about">About</li>
+      <li data-target="#contact">Contact</li>
     </nav>
-    <nav class="tab">
-      <li class="active">Home</li>
-      <li>About</li>
-      <li>Contact</li>
+    <div class="content">
+      <div class="content-items content-active" id="home"><h1>Home</h1></div>
+      <div class="content-items" id="about"><h1>About</h1></div>
+      <div class="content-items" id="contact"><h1>Contact</h1></div>
+    </div>
+
+    <nav>
+      <li class="active" data-target="#home_two">Home</li>
+      <li data-target="#about_two">About</li>
+      <li data-target="#contact_two">Contact</li>
     </nav>
+
+    <div class="content">
+      <div class="content-items content-active" id="home_two">
+        <h1>Home</h1>
+      </div>
+      <div class="content-items" id="about_two"><h1>About</h1></div>
+      <div class="content-items" id="contact_two"><h1>Contact</h1></div>
+    </div>
+
     <script src="js/index.js"></script>
   </body>
 </html>
