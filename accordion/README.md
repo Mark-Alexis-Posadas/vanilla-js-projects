@@ -31,4 +31,4 @@ The accordion project was created by Mark Alexis Posadas and is licensed under t
 
 ## Demo
 
-(https://accordion-sage-eight.vercel.app/)
+[Click here to visit the website](https://accordion-sage-eight.vercel.app/)
