@@ -25,3 +25,8 @@ The JavaScript code works by selecting all the `nav` and `.content` elements on 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Demo
+
+[Click here to visit the website](https://multiple-tabs.vercel.app/)
+
